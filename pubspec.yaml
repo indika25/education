@@ -1,0 +1,547 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  google_sign_in: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/fi2767146.png
+    - assets/page-1/images/fi54874.png
+    - assets/page-1/images/rectangle-83.png
+    - assets/page-1/images/polygon-1.png
+    - assets/page-1/images/fi1040131.png
+    - assets/page-1/images/fi54874-BLx.png
+    - assets/page-1/images/fi54874-Jtk.png
+    - assets/page-1/images/fi4081221.png
+    - assets/page-1/images/group.png
+    - assets/page-1/images/rectangle-83-bg.png
+    - assets/page-1/images/frame-419.png
+    - assets/page-1/images/fi10421121.png
+    - assets/page-1/images/wi-fi-network.png
+    - assets/page-1/images/fi1040131-ufa.png
+    - assets/page-1/images/fi1008975.png
+    - assets/page-1/images/wi-fi-network-8Ax.png
+    - assets/page-1/images/rectangle-12.png
+    - assets/page-1/images/frame-426.png
+    - assets/page-1/images/battery.png
+    - assets/page-1/images/fi54874-Sck.png
+    - assets/page-1/images/fi1828778.png
+    - assets/page-1/images/battery-3sJ.png
+    - assets/page-1/images/fi1008975-xDa.png
+    - assets/page-1/images/fi54874-5dW.png
+    - assets/page-1/images/battery-U1z.png
+    - assets/page-1/images/fi54874-1Xi.png
+    - assets/page-1/images/fi54874-8eG.png
+    - assets/page-1/images/group-177.png
+    - assets/page-1/images/fi54204.png
+    - assets/page-1/images/rectangle-12-y5n.png
+    - assets/page-1/images/vector-1.png
+    - assets/page-1/images/battery-GRa.png
+    - assets/page-1/images/group-427.png
+    - assets/page-1/images/fi54874-PXA.png
+    - assets/page-1/images/fi54874-mTA.png
+    - assets/page-1/images/fi54874-FCY.png
+    - assets/page-1/images/group-419.png
+    - assets/page-1/images/fi54874-Pgg.png
+    - assets/page-1/images/ho.png
+    
+    - assets/page-1/images/fi1040131-NeQ.png
+    - assets/page-1/images/group-422.png
+    - assets/page-1/images/rectangle-83-bg-nXE.png
+    - assets/page-1/images/fi54874-X2t.png
+    - assets/page-1/images/group-419-FzU.png
+    - assets/page-1/images/fi456212.png
+    - assets/page-1/images/wi-fi-network-wpg.png
+    - assets/page-1/images/fi54874-VbJ.png
+    - assets/page-1/images/fi54874-48c.png
+    - assets/page-1/images/fi54874-DnC.png
+    - assets/page-1/images/fi54874-b8Y.png
+    - assets/page-1/images/wi-fi-network-wTJ.png
+    - assets/page-1/images/group-ttL.png
+    - assets/page-1/images/group-fw2.png
+    - assets/page-1/images/rectangle-83-95W.png
+    - assets/page-1/images/wi-fi-network-USY.png
+    - assets/page-1/images/fi4147093.png
+    - assets/page-1/images/vector-1-UMJ.png
+    - assets/page-1/images/group-430.png
+    - assets/page-1/images/logo.png    
+    - assets/page-1/images/wi-fi-network-Nyi.png
+    - assets/page-1/images/fi1008975-MSt.png
+    - assets/page-1/images/group-428.png
+    - assets/page-1/images/group-420.png
+    - assets/page-1/images/frame-2.png
+    - assets/page-1/images/rectangle-12-Ch2.png
+    - assets/page-1/images/rectangle-12-pmS.png
+    - assets/page-1/images/rectangle-12-Fkp.png
+    - assets/page-1/images/fi54874-FZ6.png
+    - assets/page-1/images/frame-19.png
+    - assets/page-1/images/fi1040131-eda.png
+    - assets/page-1/images/fi6327454.png
+    - assets/page-1/images/fi54874-6Dz.png
+    - assets/page-1/images/fi54874-DGY.png
+    - assets/page-1/images/fi4147093-ZfA.png
+    - assets/page-1/images/fi4081221-aTe.png
+    - assets/page-1/images/rectangle-12-mh6.png
+    - assets/page-1/images/fi4081221-5ji.png
+    - assets/page-1/images/rectangle-12-3M6.png
+    - assets/page-1/images/group-424.png
+    - assets/page-1/images/fi4147093-pua.png
+    - assets/page-1/images/fi54204-m7J.png
+    - assets/page-1/images/fi54874-5Nt.png
+    - assets/page-1/images/rectangle-12-Y5S.png
+    - assets/page-1/images/mask-group.png
+    - assets/page-1/images/fi6327454-g76.png
+    - assets/page-1/images/fi54874-qrL.png
+    - assets/page-1/images/fi1008975-B9W.png
+    - assets/page-1/images/rectangle-12-ioe.png
+    - assets/page-1/images/fi4147093-ae8.png
+    - assets/page-1/images/rectangle-12-rmz.png
+    - assets/page-1/images/rectangle-12-nB6.png
+    - assets/page-1/images/fi6327454-FVE.png
+    - assets/page-1/images/fi4620043.png
+    - assets/page-1/images/fi4620043-B24.png
+    - assets/page-1/images/rectangle-12-vEY.png
+    - assets/page-1/images/rectangle-12-5dE.png
+    - assets/page-1/images/rectangle-12-7GQ.png
+    - assets/page-1/images/group-417.png
+    - assets/page-1/images/ellipse-1-bg.png
+    - assets/page-1/images/rectangle-12-5Sk.png
+    - assets/page-1/images/battery-aH2.png
+    - assets/page-1/images/image-3.png
+    - assets/page-1/images/image-19.png
+    - assets/page-1/images/fi54204-6uA.png
+    - assets/page-1/images/fi54874-riY.png
+    - assets/page-1/images/fi54874-7iL.png
+    - assets/page-1/images/battery-WkU.png
+    - assets/page-1/images/group-cRJ.png
+    - assets/page-1/images/battery-9Y8.png
+    - assets/page-1/images/wi-fi-network-7NU.png
+    - assets/page-1/images/fi4147093-afN.png
+    - assets/page-1/images/rectangle-12-79W.png
+    - assets/page-1/images/group-419-eYk.png
+    - assets/page-1/images/fi54897.png
+    - assets/page-1/images/fi6327454-XW4.png
+    - assets/page-1/images/fi54204-odv.png
+    - assets/page-1/images/fi6327454-HxQ.png
+    - assets/page-1/images/fi6327454-WEp.png
+    - assets/page-1/images/fi54897-X3S.png
+    - assets/page-1/images/rectangle-12-NEQ.png
+    - assets/page-1/images/icons8-team-fclyt7lw5wg-unsplash-1.png
+    - assets/page-1/images/rectangle-12-d5e.png
+    - assets/page-1/images/image-3-yfJ.png
+    - assets/page-1/images/rectangle-12-bg.png
+    - assets/page-1/images/fi54874-vqJ.png
+    - assets/page-1/images/rectangle-12-aV2.png
+    - assets/page-1/images/fi6327454-bdv.png
+    - assets/page-1/images/rectangle-12-aNQ.png
+    - assets/page-1/images/fi4081221-Ukk.png
+    - assets/page-1/images/fi6327454-6XE.png
+    - assets/page-1/images/fi4620043-nex.png
+    - assets/page-1/images/fi6327454-kLt.png
+    - assets/page-1/images/fi6327454-opx.png
+    - assets/page-1/images/fi4147093-r2Y.png
+    - assets/page-1/images/fi54204-QZr.png
+    - assets/page-1/images/rectangle-12-fg8.png
+    - assets/page-1/images/fi54204-tH2.png
+    - assets/page-1/images/fi54897-ELt.png
+    - assets/page-1/images/battery-M48.png
+    - assets/page-1/images/rectangle-12-bg-JEG.png
+    - assets/page-1/images/fi4147093-8j6.png
+    - assets/page-1/images/fi4620043-tCU.png
+    - assets/page-1/images/image-18.png
+    - assets/page-1/images/fi54204-mLG.png
+    - assets/page-1/images/mask-group-Jqz.png
+    - assets/page-1/images/group-419-5gx.png
+    - assets/page-1/images/rectangle-12-dCg.png
+    - assets/page-1/images/fi4147093-pRa.png
+    - assets/page-1/images/fi54897-gWx.png
+    - assets/page-1/images/fi4210646.png
+    - assets/page-1/images/rectangle-12-fNC.png
+    - assets/page-1/images/fi4147093-Kr4.png
+    - assets/page-1/images/fi4210646-ji4.png
+    - assets/page-1/images/rectangle-12-bg-To2.png
+    - assets/page-1/images/group-417-QCU.png
+    - assets/page-1/images/fi709950.png
+    - assets/page-1/images/fi4147093-h72.png
+    - assets/page-1/images/rectangle-12-jZN.png
+    - assets/page-1/images/rectangle-12-oxQ.png
+    - assets/page-1/images/rectangle-12-bg-byN.png
+    - assets/page-1/images/rectangle-12-sye.png
+    - assets/page-1/images/battery-GuS.png
+    - assets/page-1/images/rectangle-12-YqS.png
+    - assets/page-1/images/fi8000499.png
+    - assets/page-1/images/fi4147093-cVz.png
+    - assets/page-1/images/fi6327454-MyN.png
+    - assets/page-1/images/wi-fi-network-c1r.png
+    - assets/page-1/images/fi3567831.png
+    - assets/page-1/images/ellipse-15-bg.png
+    - assets/page-1/images/ellipse-11-bg.png
+    - assets/page-1/images/ellipse-10-bg.png
+    - assets/page-1/images/wi-fi-network-3vt.png
+    - assets/page-1/images/ellipse-10-bg-N5z.png
+    - assets/page-1/images/ellipse-10-bg-sjS.png
+    - assets/page-1/images/fi3567831-Uhr.png
+    - assets/page-1/images/fi999378.png
+    - assets/page-1/images/fi709612.png
+    - assets/page-1/images/ellipse-10-bg-xiG.png
+    - assets/page-1/images/group-428-2KW.png
+    - assets/page-1/images/group-419-CBv.png
+    - assets/page-1/images/ellipse-11-bg-39E.png
+    - assets/page-1/images/fi8000499-bvc.png
+    - assets/page-1/images/fi151859.png
+    - assets/page-1/images/ellipse-11-bg-D7A.png
+    - assets/page-1/images/fi3567831-Vq6.png
+    - assets/page-1/images/group-428-bwz.png
+    - assets/page-1/images/battery-KBi.png
+    - assets/page-1/images/ellipse-10-bg-FbA.png
+    - assets/page-1/images/fi999378-L9S.png
+    - assets/page-1/images/fi3567831-qtG.png
+    - assets/page-1/images/ellipse-11-bg-WfW.png
+    - assets/page-1/images/fi4210646-9Ac.png
+    - assets/page-1/images/ellipse-11-bg-TJ4.png
+    - assets/page-1/images/fi4210646-LxU.png
+    - assets/page-1/images/fi151859-yPz.png
+    - assets/page-1/images/wi-fi-network-zeg.png
+    - assets/page-1/images/group-419-fkp.png
+    - assets/page-1/images/fi709950-tU4.png
+    - assets/page-1/images/ellipse-11-bg-r4C.png
+    - assets/page-1/images/ellipse-15-bg-gRr.png
+    - assets/page-1/images/ellipse-10-bg-Xnt.png
+    - assets/page-1/images/fi999378-on4.png
+    - assets/page-1/images/fi3567831-Rbi.png
+    - assets/page-1/images/ellipse-10-bg-MKr.png
+    - assets/page-1/images/ellipse-11-bg-WsN.png
+    - assets/page-1/images/wi-fi-network-8sv.png
+    - assets/page-1/images/ellipse-10-bg-svC.png
+    - assets/page-1/images/ellipse-10-bg-eV2.png
+    - assets/page-1/images/ellipse-11-bg-VzL.png
+    - assets/page-1/images/group-429.png
+    - assets/page-1/images/ellipse-11-bg-fTA.png
+    - assets/page-1/images/ellipse-10-bg-hrU.png
+    - assets/page-1/images/ellipse-10-bg-ZdN.png
+    - assets/page-1/images/ellipse-11-bg-1bA.png
+    - assets/page-1/images/ellipse-10-bg-Mwr.png
+    - assets/page-1/images/frame-1.png
+    - assets/page-1/images/group-419-gGU.png
+    - assets/page-1/images/group-429-YJg.png
+    - assets/page-1/images/fi709950-xxk.png
+    - assets/page-1/images/ellipse-15-bg-aUL.png
+    - assets/page-1/images/ellipse-11-bg-YKv.png
+    - assets/page-1/images/icon.png
+    - assets/page-1/images/fi3567831-uyn.png
+    - assets/page-1/images/ellipse-11-bg-Pnk.png
+    - assets/page-1/images/ellipse-10-bg-sQx.png
+    - assets/page-1/images/fi8000499-GV2.png
+    - assets/page-1/images/battery-aeg.png
+    - assets/page-1/images/wi-fi-network-UKv.png
+    - assets/page-1/images/group-429-yfi.png
+    - assets/page-1/images/fi709612-bZN.png
+    - assets/page-1/images/fi3567831-svC.png
+    - assets/page-1/images/ellipse-10-bg-FNL.png
+    - assets/page-1/images/fi709950-mrU.png
+    - assets/page-1/images/fi3567831-X8g.png
+    - assets/page-1/images/ellipse-10-bg-FaU.png
+    - assets/page-1/images/icon-qxx.png
+    - assets/page-1/images/fi8000499-yTS.png
+    - assets/page-1/images/group-429-DDN.png
+    - assets/page-1/images/fi999378-FPa.png
+    - assets/page-1/images/battery-jCG.png
+    - assets/page-1/images/group-419-FtY.png
+    - assets/page-1/images/ellipse-11-bg-924.png
+    - assets/page-1/images/frame-1-ygG.png
+    - assets/page-1/images/ellipse-10-bg-Kac.png
+    - assets/page-1/images/ellipse-10-bg-xm2.png
+    - assets/page-1/images/wi-fi-network-Hwa.png
+    - assets/page-1/images/group-428-b6c.png
+    - assets/page-1/images/ellipse-10-bg-CXn.png
+    - assets/page-1/images/ellipse-15-bg-s8Q.png
+    - assets/page-1/images/ellipse-10-bg-h6U.png
+    - assets/page-1/images/ellipse-11-bg-VC8.png
+    - assets/page-1/images/fi4210646-Jag.png
+    - assets/page-1/images/ellipse-10-bg-5a4.png
+    - assets/page-1/images/fi999378-vGU.png
+    - assets/page-1/images/ellipse-10-bg-rfn.png
+    - assets/page-1/images/group-419-Gui.png
+    - assets/page-1/images/ellipse-11-bg-R9v.png
+    - assets/page-1/images/ellipse-11-bg-MEU.png
+    - assets/page-1/images/ellipse-11-bg-aex.png
+    - assets/page-1/images/ellipse-10-bg-5YQ.png
+    - assets/page-1/images/ellipse-10-bg-aYL.png
+    - assets/page-1/images/ellipse-11-bg-cDr.png
+    - assets/page-1/images/battery-jwA.png
+    - assets/page-1/images/fi151859-grQ.png
+    - assets/page-1/images/ellipse-11-bg-8XN.png
+    - assets/page-1/images/group-419-aCL.png
+    - assets/page-1/images/fi709950-hUY.png
+    - assets/page-1/images/fi8000499-nBv.png
+    - assets/page-1/images/wi-fi-network-1D6.png
+    - assets/page-1/images/ellipse-11-bg-5Hn.png
+    - assets/page-1/images/ellipse-10-bg-qBA.png
+    - assets/page-1/images/fi4210646-CeY.png
+    - assets/page-1/images/ellipse-10-bg-8gc.png
+    - assets/page-1/images/ellipse-10-bg-qZW.png
+    - assets/page-1/images/fi3567831-RJU.png
+    - assets/page-1/images/ellipse-10-bg-sJt.png
+    - assets/page-1/images/fi4210646-eeQ.png
+    - assets/page-1/images/ellipse-11-bg-A6G.png
+    - assets/page-1/images/ellipse-11-bg-2mz.png
+    - assets/page-1/images/ellipse-10-bg-rGC.png
+    - assets/page-1/images/fi8000499-qMe.png
+    - assets/page-1/images/fi3567831-whN.png
+    - assets/page-1/images/fi54204-1W4.png
+    - assets/page-1/images/fi709612-YTn.png
+    - assets/page-1/images/fi9437514.png
+    - assets/page-1/images/fi3567831-UKv.png
+    - assets/page-1/images/ellipse-11-bg-w9E.png
+    - assets/page-1/images/youtube-320px.png
+    - assets/page-1/images/fi54204-mGY.png
+    - assets/page-1/images/ellipse-11-bg-Lzx.png
+    - assets/page-1/images/fi54204-Foi.png
+    - assets/page-1/images/office-push-pin-1.png
+    - assets/page-1/images/fi54204-iyz.png
+    - assets/page-1/images/fi54874-LHA.png
+    - assets/page-1/images/group-428-pk4.png
+    - assets/page-1/images/fi4210646-iFN.png
+    - assets/page-1/images/fi9437514-d6c.png
+    - assets/page-1/images/fi151859-kwv.png
+    - assets/page-1/images/fi709950-5Lx.png
+    - assets/page-1/images/fi54204-KBJ.png
+    - assets/page-1/images/group-177-Sax.png
+    - assets/page-1/images/battery-WoN.png
+    - assets/page-1/images/fi54204-ZPS.png
+    - assets/page-1/images/group-419-6u2.png
+    - assets/page-1/images/fi748122.png
+    - assets/page-1/images/fi9437514-81a.png
+    - assets/page-1/images/fi9437514-bsS.png
+    - assets/page-1/images/fi73169.png
+    - assets/page-1/images/fi9437514-WJ8.png
+    - assets/page-1/images/wi-fi-network-QVJ.png
+    - assets/page-1/images/fi9437514-8Za.png
+    - assets/page-1/images/fi748122-5Dv.png
+    - assets/page-1/images/fi54874-XQg.png
+    - assets/page-1/images/ellipse-19-bg.png
+    - assets/page-1/images/fi3567831-93a.png
+    - assets/page-1/images/fi54897-FSc.png
+    - assets/page-1/images/fi9437514-f8g.png
+    - assets/page-1/images/fi999378-kYc.png
+    - assets/page-1/images/down-arrow-1.png
+    - assets/page-1/images/fi9437514-xKW.png
+    - assets/page-1/images/group-419-9Bz.png
+    - assets/page-1/images/battery-Drt.png
+    - assets/page-1/images/battery-XTa.png
+    - assets/page-1/images/down-arrow-1-ooa.png
+    - assets/page-1/images/ellipse-1-bg-QTn.png
+    - assets/page-1/images/fi9437514-Mnk.png
+    - assets/page-1/images/battery-3RE.png
+    - assets/page-1/images/group-433.png
+    - assets/page-1/images/group-419-tL4.png
+    - assets/page-1/images/group-431.png
+    - assets/page-1/images/wi-fi-network-mxg.png
+    - assets/page-1/images/fi9437514-wqN.png
+    - assets/page-1/images/ellipse-1-bg-fwi.png
+    - assets/page-1/images/ellipse-1-bg-g1J.png
+    - assets/page-1/images/ellipse-1-bg-zoE.png
+    - assets/page-1/images/group-433-xzg.png
+    - assets/page-1/images/wi-fi-network-WdA.png
+    - assets/page-1/images/ellipse-22-bg.png
+    - assets/page-1/images/wi-fi-network-zap.png
+    - assets/page-1/images/group-419-zS8.png
+    - assets/page-1/images/fi9437514-ugp.png
+    - assets/page-1/images/ellipse-1-bg-m2C.png
+    - assets/page-1/images/ellipse-23-bg.png
+    - assets/page-1/images/battery-maC.png
+    - assets/page-1/images/ellipse-21-bg.png
+    - assets/page-1/images/ellipse-1-bg-upY.png
+    - assets/page-1/images/ellipse-1-bg-GCC.png
+    - assets/page-1/images/ellipse-20-bg.png
+    - assets/page-1/images/ellipse-24-bg.png
+    - assets/page-1/images/group-419-gpt.png
+    - assets/page-1/images/ellipse-1-bg-CAG.png
+    - assets/page-1/images/group-431-1J4.png
+    - assets/page-1/images/group-431-VGp.png
+    - assets/page-1/images/wi-fi-network-Ubv.png
+    - assets/page-1/images/frame-511.png
+    - assets/page-1/images/ellipse-1-bg-9VN.png
+    - assets/page-1/images/ellipse-11-bg-yYG.png
+    - assets/page-1/images/frame-511-VY8.png
+    - assets/page-1/images/down-arrow-1-5x8.png
+    - assets/page-1/images/ellipse-11-bg-Uv8.png
+    - assets/page-1/images/ellipse-11-bg-ANG.png
+    - assets/page-1/images/battery-Z6t.png
+    - assets/page-1/images/down-arrow-1-TFJ.png
+    - assets/page-1/images/fi9437514-LF6.png
+    - assets/page-1/images/down-arrow-1-sF2.png
+    - assets/page-1/images/icon-gKv.png
+    - assets/page-1/images/group-429-2Y4.png
+    - assets/page-1/images/group-429-p6Y.png
+    - assets/page-1/images/fi3567831-VAt.png
+    - assets/page-1/images/group-434.png
+    - assets/page-1/images/frame-511-eep.png
+    - assets/page-1/images/group-419-NKv.png
+    - assets/page-1/images/group-429-HWk.png
+    - assets/page-1/images/group-429-29S.png
+    - assets/page-1/images/wi-fi-network-mak.png
+    - assets/page-1/images/fi9437514-PLp.png
+    - assets/page-1/images/fi3567831-zyz.png
+    - assets/page-1/images/frame-1-ZYQ.png
+    - assets/page-1/images/fi3567831-4Rr.png
+    - assets/page-1/images/ellipse-11-bg-eNg.png
+    - assets/page-1/images/frame-511-Frt.png
+    - assets/page-1/images/frame-511-aya.png
+    - assets/page-1/images/frame-1-9kg.png
+    - assets/page-1/images/icon-NyS.png
+    - assets/page-1/images/fi3567831-xvp.png
+    - assets/page-1/images/battery-vSQ.png
+    - assets/page-1/images/frame-511-b3z.png
+    - assets/page-1/images/ellipse-11-bg-VUQ.png
+    - assets/page-1/images/frame-511-Utk.png
+    - assets/page-1/images/frame-1-Pzk.png
+    - assets/page-1/images/ellipse-11-bg-zKe.png
+    - assets/page-1/images/ellipse-11-bg-gtc.png
+    - assets/page-1/images/icon-j6C.png
+    - assets/page-1/images/ellipse-11-bg-iVr.png
+    - assets/page-1/images/ellipse-11-bg-R2k.png
+    - assets/page-1/images/ellipse-11-bg-jGQ.png
+    - assets/page-1/images/ellipse-11-bg-aBn.png
+    - assets/page-1/images/frame-511-R3J.png
+    - assets/page-1/images/ellipse-11-bg-TtQ.png
+    - assets/page-1/images/ellipse-11-bg-j6U.png
+    - assets/page-1/images/ellipse-11-bg-uC8.png
+    - assets/page-1/images/icon-8b6.png
+    - assets/page-1/images/group-429-XNC.png
+    - assets/page-1/images/frame-511-qS4.png
+    - assets/page-1/images/down-arrow-1-RFS.png
+    - assets/page-1/images/fi3567831-uCp.png
+    - assets/page-1/images/fi709612-SyS.png
+    - assets/page-1/images/fi3567831-bLY.png
+    - assets/page-1/images/frame-511-Z2U.png
+    - assets/page-1/images/fi9437514-KGY.png
+    - assets/page-1/images/group-429-XJ4.png
+    - assets/page-1/images/group-419-Vnc.png
+    - assets/page-1/images/group-419-RgG.png
+    - assets/page-1/images/fi3567831-UU4.png
+    - assets/page-1/images/fi3567831-ZZN.png
+    - assets/page-1/images/frame-511-h3J.png
+    - assets/page-1/images/wi-fi-network-vKn.png
+    - assets/page-1/images/ellipse-11-bg-p3n.png
+    - assets/page-1/images/frame-511-xQt.png
+    - assets/page-1/images/battery-BYY.png
+    - assets/page-1/images/frame-511-ing.png
+    - assets/page-1/images/wi-fi-network-oja.png
+    - assets/page-1/images/fi709950-1vc.png
+    - assets/page-1/images/ellipse-11-bg-wFr.png
+    - assets/page-1/images/ellipse-10-bg-W3N.png
+    - assets/page-1/images/battery-9nU.png
+    - assets/page-1/images/group-428-E3E.png
+    - assets/page-1/images/fi8000499-yHW.png
+    - assets/page-1/images/fi3567831-UMJ.png
+    - assets/page-1/images/fi4210646-gL4.png
+    - assets/page-1/images/group-428-xNg.png
+    - assets/page-1/images/fi4210646-skY.png
+    - assets/page-1/images/ellipse-11-bg-c6x.png
+    - assets/page-1/images/battery-uJt.png
+    - assets/page-1/images/fi9437514-n6p.png
+    - assets/page-1/images/ellipse-10-bg-6cU.png
+    - assets/page-1/images/fi151859-Lnx.png
+    - assets/page-1/images/group-429-YG4.png
+    - assets/page-1/images/whatsapp-image-2024-01-04-at-823-1.png
+    - assets/page-1/images/down-arrow-1-7ac.png
+    - assets/page-1/images/ellipse-11-bg-Mcg.png
+    - assets/page-1/images/frame-511-Yfe.png
+    - assets/page-1/images/wi-fi-network-sHv.png
+    - assets/page-1/images/group-429-5ic.png
+    - assets/page-1/images/ellipse-10-bg-99N.png
+    - assets/page-1/images/fi999378-4cL.png
+    - assets/page-1/images/group-419-PcY.png
+    - assets/page-1/images/ellipse-10-bg-b5W.png
+    - assets/page-1/images/ellipse-11-bg-8AG.png
+    - assets/page-1/images/fi3567831-2ep.png
+    - assets/page-1/images/ellipse-11-bg-GEx.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
